@@ -49,6 +49,6 @@ public class EstadioController {
             estadioRepository.deleteById(id);
         }
 
-        return "redirect:/estadios/listar";
+        return "redirect:/estadio/listar";
     }
 }
